@@ -1,29 +1,19 @@
-
 import Footer from "../../components/Footer";
-import Form from "../../components/Form";
 import Any from "../../components/Any";
-import Hero2 from "../../components/Hero2";
 import Hero from "../../components/Hero";
-import Last from "../../components/Last";
-import Nav from "../../components/Nav";
-import Nav2 from "../../components/Nav2";
-import Review from "../../components/Review";
 import Service from "../../components/Service";
-import Side from "../../components/Side";
 import Testimonial from "../../components/Testimonial";
-
 import Section from "../../components/Section";
-import PolicyAccordion from "../../components/PolicyAccordion";
-import PolicyMain from "../../components/PolicyMain";
 import HomeSeoContent from "../../components/HomeSeoContent";
 import NavContainer from "../../components/NavContainer";
+import PolicyAccordion from "../../components/PolicyAccordion";
 
 export const metadata = {
   title:
     "Cab Services Varanasi | Best Taxi Service & Car Rental in Varanasi",
 
   description:
-    "Book affordable taxi service and car rental in Varanasi with Cab Services Varanasi. Airport transfers, local sightseeing, outstation cabs, corporate rides, and 24/7 cab booking.",
+    "Book affordable taxi service in Varanasi with Cab Services Varanasi. Airport taxi, railway station pickup, local sightseeing, outstation cab booking, corporate travel, Innova Crysta, Ertiga, Tempo Traveller and chauffeur-driven car rental available 24/7.",
 
   keywords: [
     "cab services varanasi",
@@ -31,31 +21,22 @@ export const metadata = {
     "car rental in varanasi",
     "cab booking varanasi",
     "airport taxi varanasi",
+    "airport cab varanasi",
+    "railway station taxi varanasi",
     "outstation cab varanasi",
-    "cab service near me",
-    "best cab service in varanasi",
-    "tempo traveller in varanasi",
-    "local sightseeing taxi varanasi",
-    "varanasi airport taxi",
+    "local taxi service varanasi",
+    "tempo traveller varanasi",
+    "innova crysta rental varanasi",
+    "ertiga taxi varanasi",
+    "cab near me varanasi",
+    "best taxi service in varanasi",
+    "cheap taxi service varanasi",
+    "chauffeur driven car rental",
     "cabservicesvaranasi.com"
   ],
 
-  metadataBase: new URL("https://cabservicesvaranasi.com"),
-
   alternates: {
-    canonical: "/",
-  },
-
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-      "max-video-preview": -1,
-    },
+    canonical: "https://cabservicesvaranasi.com",
   },
 
   openGraph: {
@@ -63,7 +44,7 @@ export const metadata = {
       "Cab Services Varanasi | Best Taxi Service & Car Rental in Varanasi",
 
     description:
-      "Reliable taxi service, airport taxi, local sightseeing and outstation cab booking in Varanasi.",
+      "Book trusted airport taxi, local sightseeing, railway station pickup, outstation cabs and chauffeur-driven car rentals in Varanasi.",
 
     url: "https://cabservicesvaranasi.com",
 
@@ -85,22 +66,34 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
+
     title:
-      "Cab Services Varanasi | Best Taxi Service & Car Rental in Varanasi",
+      "Cab Services Varanasi | Taxi Service & Car Rental",
+
     description:
-      "Affordable taxi service, airport cab and car rental in Varanasi.",
+      "Airport taxi, local sightseeing, outstation cab booking and car rental in Varanasi.",
+
     images: ["/og-image.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 };
 
 export default function Home() {
-
-
-
-
   return (
-    <section className=" w-full">
+    <section className="w-full">
 
+      {/* Local Business Schema */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -108,13 +101,17 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "TaxiService",
             "@id": "https://cabservicesvaranasi.com/#business",
+
             name: "Cab Services Varanasi",
+
             url: "https://cabservicesvaranasi.com",
+
             logo: "https://cabservicesvaranasi.com/logo.png",
+
             image: "https://cabservicesvaranasi.com/logo.png",
 
             description:
-              "Cab Services Varanasi offers taxi service, airport transfers, local sightseeing, car rental, and outstation cab booking in Varanasi.",
+              "Cab Services Varanasi offers airport taxi, local sightseeing taxi, railway station pickup, chauffeur-driven car rental and outstation cab booking throughout Varanasi.",
 
             telephone: "+91-8299529846",
 
@@ -122,12 +119,21 @@ export default function Home() {
 
             priceRange: "₹₹",
 
+            openingHours: "Mo-Su 00:00-23:59",
+
             address: {
               "@type": "PostalAddress",
+              streetAddress: "",
               addressLocality: "Varanasi",
               addressRegion: "Uttar Pradesh",
               postalCode: "221001",
-              addressCountry: "IN"
+              addressCountry: "IN",
+            },
+
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: "25.3176",
+              longitude: "82.9739",
             },
 
             areaServed: [
@@ -135,24 +141,84 @@ export default function Home() {
               "Sarnath",
               "Prayagraj",
               "Ayodhya",
-              "Bodh Gaya"
+              "Vindhyachal",
+              "Bodh Gaya",
+              "Lucknow",
+              "Gorakhpur",
+              "Jaunpur",
+              "Mirzapur",
             ],
 
-            openingHours: "Mo-Su 00:00-23:59",
-
             serviceType: [
-              "Taxi Service in Varanasi",
-              "Car Rental in Varanasi",
-              "Airport Taxi Service",
-              "Outstation Cab Service",
+              "Taxi Service",
+              "Airport Taxi",
+              "Airport Transfer",
+              "Railway Station Pickup",
+              "Railway Station Drop",
               "Local Sightseeing Taxi",
-              "Corporate Cab Service"
-            ]
+              "Outstation Cab",
+              "One Way Taxi",
+              "Round Trip Cab",
+              "Car Rental",
+              "Corporate Cab",
+              "Wedding Car Rental",
+              "Tempo Traveller",
+              "Innova Crysta Rental",
+            ],
+
+            sameAs: [
+              "https://www.instagram.com/YOUR_USERNAME",
+              "https://www.facebook.com/YOUR_PAGE"
+            ],
           }),
         }}
       />
 
+      {/* Website Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
 
+            url: "https://cabservicesvaranasi.com",
+
+            name: "Cab Services Varanasi",
+
+            potentialAction: {
+              "@type": "SearchAction",
+
+              target:
+                "https://cabservicesvaranasi.com/?q={search_term_string}",
+
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      {/* Organization Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+
+            "@type": "Organization",
+
+            name: "Cab Services Varanasi",
+
+            url: "https://cabservicesvaranasi.com",
+
+            logo: "https://cabservicesvaranasi.com/logo.png",
+
+            email: "cabservicesvaranasi91@gmail.com",
+
+            telephone: "+91-8299529846",
+          }),
+        }}
+      />
 
       <header>
         <NavContainer />
@@ -163,28 +229,20 @@ export default function Home() {
 
         <Service />
 
-
-
-
         <Any />
 
         <Section />
 
-
         <HomeSeoContent />
 
+        <PolicyAccordion/>
 
         <Testimonial />
-
-
-
       </main>
+
       <footer>
         <Footer />
       </footer>
-
-
-
     </section>
   );
 }

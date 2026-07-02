@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function HomeSeoContent() {
   return (
     <div className="flex items-center mt-10 justify-center">
-      <section className="w-full lg:w-[95%] lg:rounded-[3rem] flex items-center justify-center flex-col bg-[#F8FAFC] px-4 md:px-10 py-16">
+      <section className="w-full  lg:rounded-[3rem] flex items-center justify-center flex-col bg-[#F8FAFC] px-4 md:px-10 py-16">
         <h2 className="text-[0.78rem] md:text-2xl font-bold tracking-[1.5px] uppercase text-[#F97316] mb-5">
           
           Best Cab Service in Varanasi

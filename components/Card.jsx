@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import gsap from "gsap";
+import Link from "next/link";
 import Image from "next/image";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 
@@ -44,7 +45,7 @@ duration-300
 hover:shadow-[0_0_40px_rgba(249,115,22,0.3)] inter-var"
       onMouseEnter={() => window.cursor?.enter()}
       onMouseLeave={() => window.cursor?.leave()}>
-      <CardBody
+     <Link href={`/cars/${name}`}><CardBody
 
         ref={cardRef}
         onMouseEnter={onEnter}
@@ -151,7 +152,7 @@ hover:shadow-[0_0_40px_rgba(249,115,22,0.3)] inter-var"
             Book on WhatsApp
           </CardItem>
         </div>
-      </CardBody>
+      </CardBody></Link> 
     </CardContainer>
   );
 }

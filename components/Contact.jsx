@@ -31,7 +31,7 @@ const Contact = () => {
 
       <div className="min-h-screen w-screen md:w-full md:mt-10  bg-transparent flex items-center justify-center md:px-6 py-12">
 
-        <div className="w-full bg-[#0F172A] rounded-3xl shadow-2xl p-6 md:p-8 grid md:grid-cols-2 gap-10 hover:shadow-[0_0_40px_rgba(249,115,22,0.15)] transition-shadow duration-700">
+        <div className="w-full  backdrop-blur-xl rounded-3xl shadow-2xl p-6 md:p-8 grid md:grid-cols-2 gap-10 hover:shadow-[0_0_40px_rgba(249,115,22,0.15)] transition-shadow duration-700">
 
 
           <div className="relative bg-[#F97316] text-white rounded-2xl p-8 md:p-10 flex flex-col justify-between overflow-hidden shadow-lg group hover:scale-[1.01] transition-transform duration-500">
@@ -147,7 +147,7 @@ const InputField = ({ label, placeholder, type = "text" }) => (
     <input
       type={type}
       placeholder={placeholder}
-      className="w-full bg-transparent border-b text-white border-gray-600 focus:outline-none focus:border-[#F97316] py-2 transition-all duration-300 placeholder:text-gray-500"
+      className="w-full bg-transparent border-b text-white border-gray-600 focus:outline-none focus:border-[#F97316] py-2 transition-all duration-300 placeholder:text-gray-400"
     />
   </div>
 );

@@ -29,7 +29,7 @@ export default function Hero() {
   });
 
   const [errors, setErrors] = useState({});
-   const words = ["better", "cute", "beautiful", "modern"];
+  const words = ["better", "cute", "beautiful", "modern"];
 
 
   const handleChange = (e) => {
@@ -119,7 +119,7 @@ export default function Hero() {
       className="relative min-h-screen mt-10 flex items-center pt-[100px] pb-[60px] px-[5vw] overflow-hidden"
       style={{
         background:
-          "linear-gradient(135deg, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0.7) 50%, rgba(249,115,22,0.25) 100%), url('https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=1600&q=80') center/cover no-repeat",
+          "linear-gradient(135deg, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0.7) 50%, rgba(249,115,22,0.25) 100%), url('https://images.unsplash.com/photo-1614414827233-e53d9d81aef8?w=1600&q=80') center/cover no-repeat",
       }}
     >
       {/* Bottom fade */}
@@ -130,29 +130,30 @@ export default function Hero() {
         {/* ── Left Content ── */}
         <div ref={contentRef} className="opacity-0">
           {/* Eyebrow badge */}
-          <div className="inline-flex items-center gap-2 bg-[#F97316]/15 border border-[#F97316]/30 text-[#F97316] px-[14px] py-[6px] rounded-full text-[0.78rem] font-semibold tracking-[0.5px] uppercase mb-5">
+          <div className="inline-flex items-center gap-2 bg-white/8 backdrop-blur-sm border border-white/30 text-white px-[14px] py-[6px] rounded-full text-[0.78rem] font-semibold tracking-[0.5px] uppercase mb-5">
             <span
               ref={pulseRef}
               className="w-[6px] h-[6px] bg-[#F97316] rounded-full"
             />
-            Varanasi's Trusted Cab Service
+            24/7 Verified Cab Service
           </div>
 
           {/* Headline */}
-          <FlipWord/>
+          <FlipWord />
 
           {/* Sub-headline */}
           <p className="text-white/70 text-[1.1rem] leading-[1.7] mb-8 max-w-[520px]">
-            Book trusted cabs for local sightseeing, airport transfers &;
-            outstation travel. Explore the spiritual heart of India with comfort
-            and safety.
+            Varanasi Travel Cab offers reliable taxi and car rental services across
+            Varanasi — from local sightseeing and airport transfers to outstation
+            trips pan-India. Travel the spiritual heart of India with comfort,
+            safety, and drivers you can trust.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-[14px] mb-10">
             <a
               href="tel:+918299529846"
-              className="inline-flex items-center gap-2 bg-[#F97316] text-white px-[30px] py-[14px] rounded-[10px] font-bold text-[1rem] no-underline hover:bg-[#ea6c0a] hover:-translate-y-[2px] transition-all duration-200 shadow-[0_4px_20px_rgba(249,115,22,0.4)] hover:shadow-[0_8px_28px_rgba(249,115,22,0.5)]"
+              className="inline-flex items-center gap-2 bg-[#002855] text-white px-[30px] py-[14px] rounded-[10px] font-bold text-[1rem] no-underline hover:bg-[#ea6c0a] hover:-translate-y-[2px] transition-all duration-200  hover:shadow-[0_8px_28px_rgba(249,115,22,0.5)]"
             >
               Call Now
             </a>
@@ -185,20 +186,20 @@ export default function Hero() {
         {/* ── Booking Card ── */}
         <div
           ref={cardRef}
-          className="opacity-0 bg-white rounded-[16px] p-[32px_28px] shadow-[0_20px_60px_rgba(0,0,0,0.25)] border border-white/10"
+          className="opacity-0 backdrop-blur-sm rounded-[16px] p-[32px_28px] shadow-[0_20px_60px_rgba(0,0,0,0.25)] border border-white/10"
         >
-          <h3 className="font-poppins font-bold text-[1.2rem] text-[#0F172A] mb-[6px]">
+          <h3 className="font-poppins font-bold text-[1.2rem] text-gray-200 mb-[6px]">
             🗓️ Quick Booking
           </h3>
 
-          <p className="text-[0.82rem] text-[#64748B] mb-[22px]">
+          <p className="text-[0.82rem] text-white mb-[22px]">
             Fill the form and we&apos;ll call you back within 2 minutes
           </p>
 
           <div className="space-y-4">
             {/* Full Name */}
             <div>
-              <label className="block text-[0.8rem] font-semibold text-[#1E293B] mb-[6px]">
+              <label className="block text-[0.8rem] font-semibold text-white mb-[6px]">
                 Full Name *
               </label>
 
@@ -208,7 +209,7 @@ export default function Hero() {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="Enter your full name"
-                className={`w-full px-[14px] py-[11px] border-[1.5px] rounded-[10px] text-[0.9rem] text-[#1E293B] bg-[#F8FAFC] outline-none transition-all focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)]
+                className={`w-full px-[14px] py-[11px] border-[1.5px] rounded-[10px] text-[0.9rem] text-black bg-[#F8FAFC] outline-none transition-all focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)]
         ${errors.name ? "border-red-500" : "border-[#E2E8F0]"}`}
               />
 
@@ -221,7 +222,7 @@ export default function Hero() {
 
             {/* Mobile Number */}
             <div>
-              <label className="block text-[0.8rem] font-semibold text-[#1E293B] mb-[6px]">
+              <label className="block text-[0.8rem] font-semibold text-white mb-[6px]">
                 Mobile Number *
               </label>
 
@@ -232,7 +233,7 @@ export default function Hero() {
                 onChange={handleChange}
                 maxLength={10}
                 placeholder="Enter Mobile No."
-                className={`w-full px-[14px] py-[11px] border-[1.5px] rounded-[10px] text-[0.9rem] text-[#1E293B] bg-[#F8FAFC] outline-none transition-all focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)]
+                className={`w-full px-[14px] py-[11px] border-[1.5px] rounded-[10px] text-[0.9rem] text-black bg-[#F8FAFC] outline-none transition-all focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)]
         ${errors.phone ? "border-red-500" : "border-[#E2E8F0]"}`}
               />
 
@@ -245,7 +246,7 @@ export default function Hero() {
 
             {/* Pickup Date */}
             <div>
-              <label className="block text-[0.8rem] font-semibold text-[#1E293B] mb-[6px]">
+              <label className="block text-[0.8rem] font-semibold text-white mb-[6px]">
                 Pickup Date
               </label>
 
@@ -256,21 +257,21 @@ export default function Hero() {
                 onChange={handleChange}
                 onClick={(e) => e.target.showPicker?.()}
                 onFocus={(e) => e.target.showPicker?.()}
-                className="w-full px-[14px] py-[11px] border-[1.5px] border-[#E2E8F0] rounded-[10px] text-[0.9rem] text-[#1E293B] bg-[#F8FAFC] outline-none focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)] transition-all"
+                className="w-full px-[14px] py-[11px] border-[1.5px] border-[#E2E8F0] rounded-[10px] text-[0.9rem] text-black bg-[#F8FAFC] outline-none focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)] transition-all"
               />
             </div>
           </div>
-          
+
           <MagneticButton>
-          <button
-            onClick={handleSubmit}
-            className="w-full mt-4 bg-[#F97316] text-white py-[13px] rounded-[10px] text-[1rem] font-bold font-poppins cursor-pointer hover:bg-[#ea6c0a] active:bg-[#ea6c0a] hover:-translate-y-[1px] transition-all duration-200 border-none"
-          >
-            Book My Cab Now
-          </button>
+            <button
+              onClick={handleSubmit}
+              className="w-full mt-4 bg-[#002855] text-white py-[13px] rounded-[10px] text-[1rem] font-bold font-poppins cursor-pointer hover:bg-[#ea6c0a]/90 active:bg-[#ea6c0a] hover:-translate-y-[1px] transition-all duration-200 border-none"
+            >
+              Check Availability
+            </button>
           </MagneticButton>
 
-          <p className="text-center text-[0.75rem] text-[#64748B] mt-[10px]">
+          <p className="text-center text-[0.75rem] text-white mt-[10px]">
             🔒 100% safe &amp; private · Free cancellation
           </p>
         </div>

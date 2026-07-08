@@ -45,7 +45,7 @@ function Nav({ open, setOpen }) {
             <li>
               <Link
                 href="/"
-                className={`  font-semibold text-xl shrink-0 hover:text-[#FF3600]/80  transition-all ${pathname === "/" ? "text-[#FF3600] underline" : "text-white"
+                className={`  font-semibold text-xl shrink-0 hover:text-[#FF3600]/80  transition-all ${pathname === "/" ? "text-[#0466c8] underline" : "text-white"
                   }`}
               >
                 Home
@@ -54,7 +54,7 @@ function Nav({ open, setOpen }) {
             <li>
               <Link
                 href="/about"
-                className={` font-semibold shrink-0 text-xl hover:text-[#FF3600]/80  transition-all ${pathname === "/about" ? "text-[#FF3600] underline" : "text-white"
+                className={` font-semibold shrink-0 text-xl hover:text-[#FF3600]/80  transition-all ${pathname === "/about" ? "text-[#0466c8] underline" : "text-white"
                   }`}
               >
                 About
@@ -63,7 +63,7 @@ function Nav({ open, setOpen }) {
             <li>
               <Link
                 href="/rent"
-                className={` shrink-0  font-semibold text-xl hover:text-[#FF3600]/80  transition-all ${pathname === "/rent" ? "text-[#FF3600] underline" : "text-white"
+                className={` shrink-0  font-semibold text-xl hover:text-[#FF3600]/80  transition-all ${pathname === "/rent" ? "text-[#0466c8] underline" : "text-white"
                   }`}
               >
                 Rent a Car
@@ -72,7 +72,7 @@ function Nav({ open, setOpen }) {
             <li>
               <Link
                 href="/contact"
-                className={` shrink-0  font-semibold text-xl hover:text-[#FF3600]/80  transition-all ${pathname === "/contact" ? "text-[#FF3600] underline" : "text-white"
+                className={` shrink-0  font-semibold text-xl hover:text-[#FF3600]/80  transition-all ${pathname === "/contact" ? "text-[#0466c8] underline" : "text-white"
                   }`}
               >
                 Contact Us

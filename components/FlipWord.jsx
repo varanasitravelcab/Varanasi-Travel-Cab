@@ -12,16 +12,16 @@ const words = [
 
   return (
        <h1
-      className="font-poppins font-extrabold text-white leading-[1.15] mb-[18px]"
+      className="font-poppins font-extrabold text-[white] leading-[1.15] mb-[18px]"
       style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)" }}
     >
       Affordable{" "}
-      <span className="text-[#F97316] inline-block">
+      <span className="text-[#0466c8] inline-block">
         <FlipWords duration={1500} words={words} />
       </span>
       <br />
-      Cab Services in{" "}
-      <span className="text-[#F97316]">Varanasi</span>
+      Varanasi Travel{" "}
+      <span className="text-[#0466c8]">Cab</span>
     </h1>
   );
 }

@@ -16,6 +16,8 @@ import { cn } from "@/lib/utils";
 gsap.registerPlugin(ScrollTrigger);
 
 // ─── Data ─────────────────────────────────────────────────────────────────────
+// Only the content changed here — same shape, same fields, same 3D card
+// mechanics below. Update names/text/tags freely, just keep the same keys.
 
 const reviews = [
   {
@@ -32,7 +34,7 @@ const reviews = [
     location: "Bihar, Gaya",
     stars: 5,
     tag: "Airport Transfer",
-    text: "Airport pickup at 4 AM — driver was already waiting! The car was clean and AC was perfect. Fair price with no extra charges. Aaradhya is my go-to for every Varanasi trip now.",
+    text: "Airport pickup at 4 AM — driver was already waiting! The car was clean and AC was perfect. Fair price with no extra charges. Varanasi Travel Cab is my go-to for every Varanasi trip now.",
   },
   {
     initials: "AM",
@@ -69,6 +71,7 @@ const reviews = [
 ];
 
 // ─── CometCard ────────────────────────────────────────────────────────────────
+// Untouched — same 3D tilt + glare mechanic as before.
 
 const CometCard = ({
   rotateDepth = 17.5,
@@ -155,7 +158,7 @@ const CometCard = ({
 
 export default function Reviews() {
   const headerRef = useRef(null);
-  const gridRef   = useRef(null);
+  const gridRef = useRef(null);
 
   useGSAP(() => {
     // Header fade-up
@@ -196,7 +199,7 @@ export default function Reviews() {
 
         {/* ── Header ── */}
         <div ref={headerRef} className="text-center mb-14 opacity-0">
-          <h2 className="text-[0.78rem] md:text-2xl font-bold tracking-[1.5px] uppercase text-[#F97316] mb-5">
+          <h2 className="text-[0.78rem] md:text-2xl font-bold tracking-[1.5px] uppercase text-[#0466c8] mb-5">
             Customer Reviews
           </h2>
           <h2
@@ -206,15 +209,15 @@ export default function Reviews() {
             What Our Passengers Say
           </h2>
           <p className="text-white/55 text-[1rem] leading-[1.7] max-w-[500px] mx-auto mb-6">
-            Real stories from real travelers who chose Aaradhya for their
-            Varanasi journey.
+            Real stories from real travelers who chose Varanasi Travel Cab for
+            their journey.
           </p>
 
           {/* Aggregate rating */}
           <div className="flex items-center justify-center gap-3">
             <div className="flex gap-[3px]">
               {[...Array(5)].map((_, i) => (
-                <span key={i} className="text-[#F97316] text-[1.2rem]">★</span>
+                <span key={i} className="text-[#0466c8] text-[1.2rem]">★</span>
               ))}
             </div>
             <span className="text-white font-poppins font-bold text-[1.1rem]">4.9</span>
@@ -236,7 +239,7 @@ export default function Reviews() {
           ))}
         </div>
 
-       
+
 
       </div>
     </section>
@@ -248,9 +251,8 @@ export default function Reviews() {
 function ReviewCardInner({ initials, name, location, stars, tag, text }) {
   return (
     <div
-      className="h-full flex flex-col gap-4 rounded-[18px] p-6 border border-white/[0.08]"
+      className="h-full flex flex-col hover:shadow-[0_0_60px_rgba(4,102,200,0.45)] gap-4 rounded-[18px] p-6 border border-white/[0.08] bg-[#002855]"
       style={{
-     
         backdropFilter: "blur(20px)",
       }}
     >
@@ -258,12 +260,12 @@ function ReviewCardInner({ initials, name, location, stars, tag, text }) {
       <div className="flex items-center justify-between">
         <div className="flex gap-[2px]">
           {[...Array(stars)].map((_, i) => (
-            <span key={i} className="text-[#F97316] text-[0.95rem] leading-none">
+            <span key={i} className="text-[#0466c8] text-[0.95rem] leading-none">
               ★
             </span>
           ))}
         </div>
-        <span className="text-[0.7rem] font-semibold text-[#F97316] bg-[#F97316]/10 border border-[#F97316]/20 px-[10px] py-[3px] rounded-full">
+        <span className="text-[0.7rem] font-semibold text-[#0466c8] bg-[#0466c8]/10 border border-[#0466c8]/20 px-[10px] py-[3px] rounded-full">
           {tag}
         </span>
       </div>
@@ -279,7 +281,7 @@ function ReviewCardInner({ initials, name, location, stars, tag, text }) {
       {/* Author row */}
       <div className="flex items-center gap-3">
         {/* Avatar */}
-        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#F97316] to-[#EA580C] flex items-center justify-center text-white font-poppins font-bold text-[0.85rem] flex-shrink-0 shadow-[0_4px_12px_rgba(249,115,22,0.3)]">
+        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#0466c8] to-[#002855] flex items-center justify-center text-white font-poppins font-bold text-[0.85rem] flex-shrink-0 shadow-[0_4px_12px_rgba(4,102,200,0.3)]">
           {initials}
         </div>
         <div>

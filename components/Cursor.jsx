@@ -53,7 +53,7 @@ function Cursor() {
       ref={ref}
       className="
         fixed top-0 left-0 z-[999999]
-        size-3 rounded-full bg-[#F97316]
+        size-3 rounded-full bg-[#0466c8]
         pointer-events-none
         -translate-x-1/2 -translate-y-1/2
       "

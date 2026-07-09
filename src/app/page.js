@@ -227,15 +227,17 @@ export default function Home() {
       <main>
         <Hero />
 
+        <Any />
+
         <Service />
 
-        <Any />
+
 
         <Section />
 
         <HomeSeoContent />
 
-        <PolicyAccordion/>
+        <PolicyAccordion />
 
         <Testimonial />
       </main>

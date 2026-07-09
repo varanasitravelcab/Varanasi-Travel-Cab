@@ -77,7 +77,7 @@ export default function ServiceCards() {
       <Link href="/rent" ><div
         onMouseOver={() => over(bg2.current, content2.current)}
         onMouseOut={() => out(bg2.current, content2.current)}
-        className="group bg-black relative cursor-pointer rounded-3xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition overflow-hidden"
+        className="group bg-black relative cursor-pointer rounded-3xl  flex flex-col justify-between shadow-sm hover:shadow-md transition overflow-hidden"
       >
         <div ref={bg2} className="absolute left-0 bottom-0 w-full h-0 bg-[#FF3600] rounded-3xl z-0" />
         <div ref={content2} className="relative z-10 text-white">
@@ -101,7 +101,7 @@ export default function ServiceCards() {
      <Link href="/rent" ><div
         onMouseOver={() => over(bg3.current, content3.current)}
         onMouseOut={() => out(bg3.current, content3.current)}
-        className="group bg-black relative cursor-pointer rounded-3xl p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition overflow-hidden"
+        className="group bg-black relative cursor-pointer rounded-3xl  flex flex-col justify-between shadow-sm hover:shadow-md transition overflow-hidden"
       >
         <div ref={bg3} className="absolute left-0 bottom-0 w-full h-0 bg-[#FF3600] rounded-3xl z-0" />
         <div ref={content3} className="relative z-10 text-white">

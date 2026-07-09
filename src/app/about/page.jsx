@@ -18,8 +18,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Nav from "../../../components/Nav";
 import Side from "../../../components/Side";
 import Footer from "../../../components/Footer";
-import PolicyAccordion from "../../../components/PolicyAccordion";
-import Last from "../../../components/Last";
 import AboutSeoContent from "../../../components/AboutSeoContent";
 import { FlipWord } from "../../../components/FlipWord";
 import { FlipWordAbout } from "../../../components/FlipWordAbout";
@@ -365,7 +363,7 @@ export default function AboutPage() {
           HERO
       ════════════════════════════════════════ */}
       <section
-        aria-label="About Aaradhya Tour and Travels"
+        aria-label="About Varanasi Travel Cab"
         className="relative min-h-screen flex justify-center w-full items-center pt-[100px] pb-[60px] px-[5vw] overflow-hidden"
         style={{
           background:

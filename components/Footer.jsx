@@ -26,10 +26,10 @@ const Footer = () => {
             {/* Brand */}
             <div>
               <h2 className="text-2xl font-bold">
-                <span className="text-[#FF3600]">CAB SERVICES</span> <br /> VARANASI
+                <span className="text-[#0466c8]">VARANASI TRAVEL</span> <br /> CAB
               </h2>
               <p className="text-gray-400 mt-4">
-                Your trusted choice for airport transfers, local sightseeing, and outstation cab services in Varanasi.
+                Varanasi Travel Cab is your trusted taxi and car rental service in Varanasi, offering reliable airport transfers, local sightseeing, outstation cabs, railway station pickups, corporate travel, wedding car rentals, and religious tour packages. Enjoy clean vehicles, professional drivers, affordable fares, and 24×7 customer support.
               </p>
             </div>
 
@@ -62,16 +62,16 @@ const Footer = () => {
 
               <div className="  ">
                 {/* Email Input */}
-                <p className="text-gray-400 mt-4">Email : <a href="mailto:rajat6427@gmail.com" className="text-[#F97316] hover:underline">
+                <p className="text-gray-400 mt-4">Email : <a href="mailto:rajat6427@gmail.com" className="text-[#0466c8] hover:underline">
 
-                  cabservicesvaranasi91@gmail.com</a>
+                  varanasitravelcab@gmail.com</a>
                 </p>
                 <p className="text-gray-400 mt-4">Call Now : <a
-              href="tel:+918299529846"
-              className=" text-[#F97316] hover:underline  transition-all duration-200 "
-            >
-              +918299529846
-            </a></p>
+                  href="tel:+918299529846"
+                  className=" text-[#0466c8] hover:underline  transition-all duration-200 "
+                >
+                  +918299529846
+                </a></p>
 
               </div>
             </div>
@@ -83,42 +83,32 @@ const Footer = () => {
           {/* Bottom Section */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <p className="text-gray-400 text-sm">
-              © 2026 Cab Services Varanasi. All rights reserved.
+              © 2026 Varanasi Travel Cab. All rights reserved.
             </p>
 
             <p className="text-gray-400 gap-3 mt-16 flex flex-col">
               Website designed & developed by <br />
               <a
-                className="text-orange-500 text-xl transition-all hover:underline active:underline"
+                className="text-[#0466c8] text-xl transition-all hover:underline active:underline"
                 href="https://wa.me/918881509360"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                
+
                 Kartikey Pathak <i class="fa-brands fa-whatsapp"></i>
               </a>
               <a
-                className="text-orange-500 text-xl transition-all hover:underline active:underline"
+                className="text-[#0466c8] text-xl transition-all hover:underline active:underline"
                 href="https://www.linkedin.com/in/kartikey-pathakb580297/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                
+
                 Linkedin <i class="fa-brands fa-linkedin"></i>
               </a>
             </p>
 
-            <div className="flex gap-4">
-              <SocialIcon link="https://www.youtube.com">
-                <FaYoutube />
-              </SocialIcon>
-              <SocialIcon link="https://www.facebook.com">
-                <FaFacebookF />
-              </SocialIcon>
-              <SocialIcon link="https://www.instagram.com/aaradhyatourandtravels/">
-                <FaInstagram />
-              </SocialIcon>
-            </div>
+         
           </div>
         </div>
       </div>

@@ -105,7 +105,7 @@ export default function Page() {
         <NavContainer />
       </header>
       <section
-        aria-label="About Aaradhya Tour and Travels"
+        aria-label="About Varanasi Travel Cab"
         className="relative min-h-screen flex justify-center w-full items-center pt-[100px] pb-[60px] px-[5vw] overflow-hidden"
         style={{
           background:

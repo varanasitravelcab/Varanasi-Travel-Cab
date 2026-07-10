@@ -7,55 +7,54 @@ import {
 } from "lucide-react";
 import Reviews from "../../../components/Testimonial";
 
-
 export const metadata = {
+  metadataBase: new URL("https://varanasitravelcab.com"),
+
   title:
-    "Taxi Service in Varanasi | Best Cab Booking Service | Cab Services Varanasi",
+    "Taxi Service in Varanasi | Cab Booking, Airport Taxi & Local Cabs | Varanasi Travel Cab",
 
   description:
-    "Book the best taxi service in Varanasi with Cab Services Varanasi. Affordable cab booking for airport transfers, local sightseeing, railway station pickup, and outstation travel with professional drivers.",
+    "Looking for the best taxi service in Varanasi? Varanasi Travel Cab offers affordable cab booking, airport taxi, railway station pickup, local sightseeing, one-way, round trip and outstation taxi services with professional drivers. Call +91 8299529846.",
 
   keywords: [
-    "taxi service in Varanasi",
-    "cab service in Varanasi",
-    "best taxi service in Varanasi",
-    "cab booking in Varanasi",
-    "airport taxi Varanasi",
-    "airport cab Varanasi",
-    "local taxi service Varanasi",
-    "outstation taxi Varanasi",
-    "Varanasi cab booking",
-    "cheap taxi service in Varanasi",
-    "cab hire in Varanasi",
-    "railway station taxi Varanasi",
-    "Kashi Vishwanath taxi service",
-    "local sightseeing taxi Varanasi",
-    "cab services Varanasi",
-    "online taxi booking Varanasi",
-    "24 hour taxi service Varanasi",
-    "Varanasi airport taxi service",
-    "taxi near me in Varanasi",
-    "Cab Services Varanasi"
+    "taxi service in varanasi",
+    "cab service in varanasi",
+    "cab booking varanasi",
+    "best taxi service in varanasi",
+    "taxi booking varanasi",
+    "airport taxi varanasi",
+    "airport cab varanasi",
+    "railway station taxi varanasi",
+    "one way taxi varanasi",
+    "round trip taxi varanasi",
+    "local taxi varanasi",
+    "outstation taxi varanasi",
+    "chauffeur driven taxi varanasi",
+    "kashi vishwanath taxi",
+    "assi ghat taxi",
+    "sarnath taxi",
+    "lal bahadur shastri airport taxi",
+    "taxi near me varanasi",
+    "24 hour taxi service varanasi",
+    "Varanasi Travel Cab"
   ],
-
-  metadataBase: new URL("https://cabservicesvaranasi.com"),
 
   alternates: {
     canonical:
-      "https://cabservicesvaranasi.com/taxi-service-in-varanasi",
+      "https://varanasitravelcab.com/taxi-service-in-varanasi",
   },
 
   openGraph: {
     title:
-      "Taxi Service in Varanasi | Affordable Cab Booking Service",
+      "Taxi Service in Varanasi | Affordable Cab Booking",
 
     description:
-      "Book reliable taxi services in Varanasi for airport transfers, local sightseeing, railway station pickup, and outstation travel.",
+      "Book trusted taxi service in Varanasi for airport transfers, local sightseeing, railway station pickup and outstation travel.",
 
     url:
-      "https://cabservicesvaranasi.com/taxi-service-in-varanasi",
+      "https://varanasitravelcab.com/taxi-service-in-varanasi",
 
-    siteName: "Cab Services Varanasi",
+    siteName: "Varanasi Travel Cab",
 
     locale: "en_IN",
 
@@ -66,10 +65,10 @@ export const metadata = {
     card: "summary_large_image",
 
     title:
-      "Taxi Service in Varanasi | Cab Services Varanasi",
+      "Taxi Service in Varanasi | Varanasi Travel Cab",
 
     description:
-      "Affordable taxi service in Varanasi for airport transfers, local sightseeing, and outstation cab booking.",
+      "Affordable taxi booking in Varanasi for airport transfer, local cab, railway station pickup and outstation travel.",
   },
 
   robots: {
@@ -85,6 +84,7 @@ export const metadata = {
   },
 };
 
+
 export default function Page() {
   return (
     <>
@@ -97,7 +97,7 @@ export default function Page() {
         className="relative min-h-screen flex justify-center w-full items-center pt-[100px] pb-[60px] px-[5vw] overflow-hidden"
         style={{
           background:
-            "linear-gradient(135deg,rgba(15,23,42,0.95) 0%,rgba(15,23,42,0.7) 50%,rgba(249,115,22,0.25) 100%), url('https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=1600&q=80') center/cover no-repeat",
+            "linear-gradient(135deg,rgba(15,23,42,0.95) 0%,rgba(15,23,42,0.7) 50%,rgba(4,102,200,0.25) 100%), url('https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=1600&q=80') center/cover no-repeat",
         }}
       >
 
@@ -106,10 +106,10 @@ export default function Page() {
         <div className="relative z-10 w-full  justify-center flex  mx-auto grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-10 lg:gap-[60px] items-center">
 
           {/* Left */}
-          <div className=" w-full mt-10">
-            <div className="inline-flex items-center gap-2 bg-[#F97316]/15 border border-[#F97316]/30 text-[#F97316] px-[50px] py-[6px] rounded-full text-[1rem] font-semibold tracking-[0.5px] uppercase mb-5">
-              <span className="w-[6px] h-[6px] bg-[#F97316] rounded-full" />
-              Best Taxi Service in Varanasi
+          <div className="w-full mt-10">
+            <div className="inline-flex items-center gap-2 bg-[#0466c8]/15 border border-[#0466c8]/30 text-[#0466c8] px-[50px] py-[6px] rounded-full text-[1rem] font-semibold tracking-[0.5px] uppercase mb-5">
+              <span className="w-[6px] h-[6px] bg-[#0466c8] rounded-full" />
+              ⭐ Trusted Taxi Service in Varanasi
             </div>
 
 
@@ -117,56 +117,57 @@ export default function Page() {
               className="font-poppins font-extrabold text-gray-300 leading-[1.15] mb-[18px]"
               style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)" }}
             >
-              Best{" "}
-              <span className="text-[#F97316]">
-                Taxi Service in Varanasi
+              Taxi Service in{" "}
+              <span className="text-[#0466c8]">
+                Varanasi
               </span>
               <br />
-              Affordable{" "}
-              <span className="text-[#F97316]">
-                Cab Booking Service
+              Local Cab Booking,
+
+              <span className="text-[#0466c8]">
+                {" "}Airport Taxi
               </span>
+
               <br />
-              for Local, Airport & Outstation Travel
+
+              One Way & Outstation Travel
             </h1>
 
 
             <p className="text-white/70 text-[1.1rem] leading-[1.7] mb-8 max-w-[520px]">
-              Looking for the best taxi service in Varanasi? Cab Services Varanasi
-              offers affordable cab booking for airport transfers, railway station
-              pickup, local sightseeing, Kashi Vishwanath Temple visits, and
-              outstation travel with experienced drivers and well-maintained vehicles.
+              Varanasi Travel Cab offers dependable taxi service in Varanasi for airport transfers, railway station pickup, local sightseeing, one-way taxi, round trips and outstation travel. Our experienced drivers, well-maintained cabs and transparent pricing ensure a safe, comfortable and hassle-free journey every time.
             </p>
 
             <div className="flex flex-wrap gap-[14px] mb-10">
               <a
-                href="tel:+918299529846"
-                aria-label="Call Cab Services Varanasi"
-                className="inline-flex items-center gap-2 bg-[#F97316] text-white px-[30px] py-[14px] rounded-[10px] font-bold text-[1rem] no-underline hover:bg-[#ea6c0a] hover:-translate-y-[2px] transition-all duration-200 shadow-[0_4px_20px_rgba(249,115,22,0.4)]"
+                href="tel:+918467007704"
+                aria-label="Call Varanasi Travel Cab"
+                className="inline-flex items-center gap-2 bg-[#002855] text-white px-[30px] py-[14px] rounded-[10px] font-bold text-[1rem] no-underline hover:-translate-y-[2px] transition-all duration-200 shadow-[0_4px_20px_rgba(0,40,85,0.4)]"
               >
                 <Phone size={16} /> Call Now
               </a>
               <a
-                href="https://wa.me/918299529846"
+                href="https://wa.me/918467007704"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="WhatsApp Cab Services Varanasi"
+                aria-label="WhatsApp Varanasi Travel Cab"
                 className="inline-flex items-center gap-2 bg-white/10 text-white px-[30px] py-[14px] rounded-[10px] font-semibold text-[1rem] no-underline border border-white/30 backdrop-blur-md hover:bg-green-500 hover:-translate-y-[2px] transition-all duration-200"
               >
                 💬 WhatsApp Us
               </a>
             </div>
+
             <div className="mt-12 flex flex-col items-start gap-2">
               <p className="text-white/90 text-sm tracking-[3px] uppercase">
-                Discover Our Premium Fleet
+                24×7 Airport Taxi • Local Cabs • Railway Station Pickup • Outstation Taxi
               </p>
 
               <div className="flex items-center gap-3">
-                <span className="text-[#F97316] font-bold">
+                <span className="text-[#0466c8] font-bold">
                   Scroll for More
                 </span>
 
-                <i className="fa-solid fa-chevron-down animate-bounce font-bold text-[#F97316]"></i>
+                <i className="fa-solid fa-chevron-down animate-bounce font-bold text-[#0466c8]"></i>
               </div>
             </div>
 

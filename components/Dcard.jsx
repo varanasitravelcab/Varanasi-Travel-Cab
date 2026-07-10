@@ -24,8 +24,8 @@ function Dcard({ url, name, des }) {
   return (
     <div
       onClick={handleClick}
-      className={`place group relative w-full max-w-[350px] h-[260px] rounded-2xl overflow-hidden shadow-md transition-all duration-500 cursor-pointer
-      ${active ? "scale-[1.02] shadow-2xl" : "hover:shadow-2xl"}`}
+      className={`place group relative w-full max-w-[350px] h-[260px] rounded-2xl shadow-[0_0_60px_rgba(4,102,200,0.45)] overflow-hidden hover:shadow-[0_0_60px_rgba(4,102,200,0.45)] shadow-md transition-all duration-500 cursor-pointer
+      ${active ? "scale-[1.02]  shadow-2xl" : "hover:shadow-2xl"}`}
     >
       {/* Image */}
       <Image
@@ -46,23 +46,21 @@ function Dcard({ url, name, des }) {
 
         <p
           className={`text-sm text-gray-200 mt-2 transition duration-500
-          ${
-            active
+          ${active
               ? "opacity-100"
               : "opacity-0 group-hover:opacity-100"
-          }`}
+            }`}
         >
           {des}
         </p>
 
         <Link
-                href="/contact"
+          href="/contact"
           className={`mt-3 text-sm font-semibold text-[#FF3600] transition duration-500
-          ${
-            active
+          ${active
               ? "opacity-100"
               : "opacity-0 group-hover:opacity-100"
-          }`}
+            }`}
         >
           Explore →
         </Link>

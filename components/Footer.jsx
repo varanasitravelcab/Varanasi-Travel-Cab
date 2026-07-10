@@ -67,10 +67,10 @@ const Footer = () => {
                   varanasitravelcab@gmail.com</a>
                 </p>
                 <p className="text-gray-400 mt-4">Call Now : <a
-                  href="tel:+918299529846"
+                  href="tel:+918467007704"
                   className=" text-[#0466c8] hover:underline  transition-all duration-200 "
                 >
-                  +918299529846
+                  +918467007704
                 </a></p>
 
               </div>

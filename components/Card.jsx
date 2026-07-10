@@ -17,7 +17,7 @@ export default function Card({
   const glowRef = useRef(null);
   const router = useRouter();
 
-  const waLink = `https://wa.me/918299529846?text=${encodeURIComponent(
+  const waLink = `https://wa.me/918467007704?text=${encodeURIComponent(
     `Hi, I want to book ${name}`
   )}`;
 

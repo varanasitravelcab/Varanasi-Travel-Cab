@@ -1,0 +1,161 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Dcard from "./Dcard";
+
+gsap.registerPlugin(ScrollTrigger);
+
+function Section2() {
+    const txt = useRef(null);
+    const sec = useRef(null);
+
+    useEffect(() => {
+        // Heading animation
+        gsap.fromTo(
+            txt.current,
+            { opacity: 0, y: 40 },
+            {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                ease: "power3.out",
+                scrollTrigger: {
+                    trigger: txt.current,
+                    start: "top 80%",
+                },
+            }
+        );
+
+        // Section fade
+        gsap.fromTo(
+            sec.current,
+            { opacity: 0 },
+            {
+                opacity: 1,
+                duration: 1.2,
+                scrollTrigger: {
+                    trigger: sec.current,
+                    start: "top 85%",
+                },
+            }
+        );
+
+        // Cards animation
+        gsap.utils.toArray(".place").forEach((card, i) => {
+            gsap.fromTo(
+                card,
+                { opacity: 0, y: 60, scale: 0.95 },
+                {
+                    opacity: 1,
+                    y: 0,
+                    scale: 1,
+                    duration: 0.6,
+                    delay: i * 0.08,
+                    ease: "power2.out",
+                    scrollTrigger: {
+                        trigger: card,
+                        start: "top 85%",
+                    },
+                }
+            );
+        });
+    }, []);
+
+    return (
+        <section
+            ref={sec}
+            className="w-full items-center flex justify-center mb-20 mt-20 "
+        >
+            <div className=" w-full  flex items-center justify-center flex-col">
+                <div className="w-full  py-16 bg-gray-100 text-center">
+
+                    {/* Small Heading */}
+                    <h2 className="text-[0.78rem] md:text-2xl font-bold tracking-[1.5px] uppercase text-[#0466c8] mb-5">
+                        ✦ TOP TRAVEL DESTINATIONS
+                    </h2>
+
+                    {/* Main Heading */}
+                    <h1
+                        ref={txt}
+                        className="mt-4 text-[0.99rem] md:text-3xl font-bold  tracking-[1.5px] uppercase text-black"
+                    >
+                        Explore Popular Destinations with Varanasi Travel Cab
+                    </h1>
+
+                    <p className="max-w-4xl mx-auto mt-6 text-sm text-gray-600 font-semibold text-center leading-8 px-4">
+                        Discover the most popular spiritual, historical, and tourist destinations with
+                        Varanasi Travel Cab. We provide comfortable taxi services for local sightseeing,
+                        airport transfers, one-way trips, round trips, and outstation travel to famous
+                        places including Kashi Vishwanath Temple, Sarnath, Bodh Gaya, Prayagraj,
+                        Ayodhya, Ramnagar Fort, BHU, Assi Ghat, and many more across North India.
+                    </p>
+
+                    {/* Cards Grid */}
+                    <div className="mt-14 px-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 place-items-center">
+
+                            <Dcard
+                                url="Kashi"
+                                name="Kashi Vishwanath Temple"
+                                des="Visit the sacred temple dedicated to Lord Shiva in the heart of Varanasi."
+                            />
+
+                            <Dcard
+                                url="Sarnath"
+                                name="Sarnath"
+                                des="A peaceful Buddhist site where Lord Buddha gave his first sermon."
+                            />
+
+                            <Dcard
+                                url="Airport"
+                                name="Varanasi Airport"
+                                des="Reliable taxi transfers to and from Lal Bahadur Shastri Airport."
+                            />
+
+                            <Dcard
+                                url="Ghat"
+                                name="Assi Ghat"
+                                des="Famous for sunrise rituals, Ganga aarti, and boat rides."
+                            />
+
+                            <Dcard
+                                url="Fort"
+                                name="Ramnagar Fort"
+                                des="A historic 17th-century fort and museum along the Ganges."
+                            />
+
+                            <Dcard
+                                url="BHU"
+                                name="Banaras Hindu University"
+                                des="A vast historic campus with temples and peaceful surroundings."
+                            />
+
+                            <Dcard
+                                url="Ayodhya"
+                                name="Ayodhya Ram Mandir"
+                                des="The sacred birthplace of Lord Rama and a major pilgrimage site."
+                            />
+
+                            <Dcard
+                                url="Prayag"
+                                name="Triveni Sangam, Prayagraj"
+                                des="The holy confluence of the Ganga, Yamuna, and Saraswati rivers."
+                            />
+
+                            <Dcard
+                                url="Bodh"
+                                name="Bodh Gaya"
+                                des="Home to the Mahabodhi Temple where Buddha attained enlightenment."
+                            />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default Section2;

@@ -7,6 +7,7 @@ import Section from "../../components/Section";
 import HomeSeoContent from "../../components/HomeSeoContent";
 import NavContainer from "../../components/NavContainer";
 import PolicyAccordion from "../../components/PolicyAccordion";
+import Section2 from "../../components/Section2";
 
 export const metadata = {
   title:
@@ -234,6 +235,8 @@ export default function Home() {
 
 
         <Section />
+        
+        <Section2/>
 
         <HomeSeoContent />
 

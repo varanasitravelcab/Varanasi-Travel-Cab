@@ -75,7 +75,7 @@ export default function Hero() {
   `;
 
     // Replace with your WhatsApp number (country code without +)
-    const whatsappNumber = "918299529846";
+    const whatsappNumber = "918467007704";
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
@@ -152,13 +152,13 @@ export default function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-[14px] mb-10">
             <a
-              href="tel:+918299529846"
+              href="tel:+918467007704"
               className="inline-flex items-center gap-2 bg-[#002855] text-white px-[30px] py-[14px] rounded-[10px] font-bold text-[1rem] no-underline hover:bg-[#ea6c0a] hover:-translate-y-[2px] transition-all duration-200  hover:shadow-[0_8px_28px_rgba(249,115,22,0.5)]"
             >
               Call Now
             </a>
             <a
-              href="https://wa.me/918299529846"
+              href="https://wa.me/918467007704"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white/10 text-white px-[30px] py-[14px] rounded-[10px] font-semibold text-[1rem] no-underline border border-white/30 backdrop-blur-md hover:bg-green-500 active:bg-green-500 hover:-translate-y-[2px] transition-all duration-200"

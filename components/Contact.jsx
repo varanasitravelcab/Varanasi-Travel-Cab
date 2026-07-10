@@ -34,23 +34,18 @@ const Contact = () => {
         <div className="w-full  bg-[#0F172A] rounded-3xl shadow-2xl p-6 md:p-8 grid md:grid-cols-2 gap-10 hover:shadow-[0_0_40px_rgba(249,115,22,0.15)] transition-shadow duration-700">
 
 
-          <div className="relative bg-[#F97316] text-white rounded-2xl p-8 md:p-10 flex flex-col justify-between overflow-hidden shadow-lg group hover:scale-[1.01] transition-transform duration-500">
+          <div className="relative bg-[#0466c8] text-white rounded-2xl p-8 md:p-10 flex flex-col justify-between overflow-hidden shadow-lg group hover:scale-[1.01] transition-transform duration-500">
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Contact Information</h2>
               <p className="text-orange-100 mb-8 text-lg">Say something to start a live chat!</p>
 
               <div className="space-y-6">
-                <InfoItem icon={<FaPhoneAlt />} text={<a href="tel:+918299529846" className="hover:underline">+91 82995 29846</a>} />
-                <InfoItem icon={<FaEnvelope />} text={<a href="mailto:rajat6427@gmail.com" className="hover:underline">cabservicesvaranasi91@gmail.com</a>} />
-                <InfoItem icon={<FaMapMarkerAlt />} text={<>Varanasi 221005 <br />Uttar Pradesh, India</>} />
+                <InfoItem icon={<FaPhoneAlt />} text={<a href="tel:+918467007704" className="hover:underline">+91 84670 07704</a>} />
+                <InfoItem icon={<FaEnvelope />} text={<a href="mailto:varanasitravelcab@gmail.com" className="hover:underline">varanasitravelcab@gmail.com</a>} />
+                <InfoItem icon={<FaMapMarkerAlt />} text={<>Varanasi 221106 <br />Uttar Pradesh, India</>} />
               </div>
             </div>
 
-            <div className="flex gap-4 mt-12 relative z-10">
-              <SocialIcon link="https://facebook.com"><FaFacebookF /></SocialIcon>
-              <SocialIcon link="https://youtube.com"><FaYoutube /></SocialIcon>
-              <SocialIcon link="https://instagram.com"><FaInstagram /></SocialIcon>
-            </div>
 
 
             <div className="absolute -bottom-10 -right-10 w-40 md:w-52 h-40 md:h-52 bg-white/20 rounded-full blur-2xl group-hover:scale-125 transition-transform duration-1000"></div>
@@ -80,7 +75,7 @@ const Contact = () => {
                 );
 
 
-                window.open(`https://wa.me/918299529846?text=${finalMessage}`, "_blank");
+                window.open(`https://wa.me/918467007704?text=${finalMessage}`, "_blank");
               }}
             >
               <div className="grid text-white md:grid-cols-2 gap-6">
@@ -105,7 +100,7 @@ const Contact = () => {
               <div className="pt-2 flex flex-col md:flex-row justify-between items-center gap-4">
                 <button
                   type="submit"
-                  className="bg-[#F97316] cursor-pointer text-white px-10 py-3.5 rounded-full hover:bg-[#ea580c] hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(249,115,22,0.4)] active:scale-95 transition-all duration-300 font-semibold inline-block w-full md:w-auto"
+                  className="bg-[#0466c8] cursor-pointer text-white px-10 py-3.5 rounded-full hover:bg-[#ea580c] hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(249,115,22,0.4)] active:scale-95 transition-all duration-300 font-semibold inline-block w-full md:w-auto"
                 >
                   Send Message
                 </button>

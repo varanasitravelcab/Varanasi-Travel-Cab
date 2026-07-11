@@ -257,7 +257,7 @@ export default function Hero() {
                 onChange={handleChange}
                 onClick={(e) => e.target.showPicker?.()}
                 onFocus={(e) => e.target.showPicker?.()}
-                className="w-full px-[14px] py-[11px] border-[1.5px] border-[#E2E8F0] rounded-[10px] text-[0.9rem] text-black bg-[#F8FAFC] outline-none focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)] transition-all"
+                className="w-full px-[14px] py-[11px] appearance-none placeholder-shown:text-gray-400 box-border placeholder:text-gray-500 border-[1.5px] border-[#E2E8F0] rounded-[10px] text-[0.9rem] text-black bg-[#F8FAFC] outline-none focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)] transition-all"
               />
             </div>
           </div>

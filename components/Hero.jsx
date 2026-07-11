@@ -186,7 +186,7 @@ export default function Hero() {
         {/* ── Booking Card ── */}
         <div
           ref={cardRef}
-          className="opacity-0 backdrop-blur-sm rounded-[16px] p-[32px_28px] shadow-[0_20px_60px_rgba(0,0,0,0.25)] border border-white/10"
+          className="opacity-0 backdrop-blur-sm flex items-center justify-center flex-col rounded-[16px] p-[32px_28px] shadow-[0_20px_60px_rgba(0,0,0,0.25)] border border-white/10"
         >
           <h3 className="font-poppins font-bold text-[1.2rem] text-gray-200 mb-[6px]">
             🗓️ Quick Booking
@@ -196,7 +196,7 @@ export default function Hero() {
             Fill the form and we&apos;ll call you back within 2 minutes
           </p>
 
-          <div className="space-y-4">
+          <div className="space-y-4 w-full md:w-[85%]">
             {/* Full Name */}
             <div>
               <label className="block text-[0.8rem] font-semibold text-white mb-[6px]">
@@ -209,7 +209,7 @@ export default function Hero() {
                 value={form.name}
                 onChange={handleChange}
                 placeholder="Enter your full name"
-                className={`w-full px-[14px] py-[11px] border-[1.5px] rounded-[10px] text-[0.9rem] text-black bg-[#F8FAFC] outline-none transition-all focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)]
+                className={`w-full px-[14px] py-[11px] border-[1.5px] rounded-[10px] text-[0.9rem] w-full text-black bg-[#F8FAFC] outline-none transition-all focus:border-[#F97316] focus:shadow-[0_0_0_3px_rgba(249,115,22,0.12)]
         ${errors.name ? "border-red-500" : "border-[#E2E8F0]"}`}
               />
 
@@ -265,7 +265,7 @@ export default function Hero() {
           <MagneticButton>
             <button
               onClick={handleSubmit}
-              className="w-full mt-4 bg-[#002855] text-white py-[13px] rounded-[10px] text-[1rem] font-bold font-poppins cursor-pointer hover:bg-[#ea6c0a]/90 active:bg-[#ea6c0a] hover:-translate-y-[1px] transition-all duration-200 border-none"
+              className="w-72 md:w-80 mt-7 bg-[#002855] text-white py-[13px] rounded-[10px] text-[1rem] font-bold font-poppins cursor-pointer hover:bg-[#ea6c0a]/90 active:bg-[#ea6c0a] hover:-translate-y-[1px] transition-all duration-200 border-none"
             >
               Check Availability
             </button>

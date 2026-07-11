@@ -14,50 +14,56 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://cabservicesvaranasi.com"),
+  metadataBase: new URL("https://varanasitravelcab.com"),
 
   title: {
-    default: "Cab Services Varanasi",
-    template: "%s | Cab Services Varanasi",
+    default: "Varanasi Travel Cab",
+    template: "%s | Varanasi Travel Cab",
   },
 
   description:
-    "Cab Services Varanasi provides airport taxi, local sightseeing taxi, outstation cab booking, railway station pickup & drop, corporate cab services and chauffeur-driven car rental in Varanasi.",
+    "Varanasi Travel Cab offers reliable taxi services in Varanasi including airport transfers, local sightseeing, outstation cabs, one-way taxi, railway station pickup & drop, corporate travel, and chauffeur-driven car rental across India.",
 
-  applicationName: "Cab Services Varanasi",
+  applicationName: "Varanasi Travel Cab",
 
   authors: [
     {
-      name: "Cab Services Varanasi",
-      url: "https://cabservicesvaranasi.com",
+      name: "Varanasi Travel Cab",
+      url: "https://varanasitravelcab.com",
     },
   ],
 
-  creator: "Cab Services Varanasi",
+  creator: "Varanasi Travel Cab",
 
-  publisher: "Cab Services Varanasi",
+  publisher: "Varanasi Travel Cab",
 
   category: "Travel",
 
   keywords: [
-    "Cab Services Varanasi",
-    "Taxi Service in Varanasi",
-    "Car Rental in Varanasi",
+    "Varanasi Travel Cab",
+    "Cab Service Varanasi",
+    "Taxi Service Varanasi",
+    "Best Taxi Service in Varanasi",
+    "Car Rental Varanasi",
     "Airport Taxi Varanasi",
-    "Airport Cab Varanasi",
-    "Local Taxi Varanasi",
-    "Outstation Cab",
-    "Railway Station Taxi",
-    "Corporate Taxi",
-    "Tempo Traveller",
-    "Innova Crysta Rental",
-    "Ertiga Rental",
-    "Taxi Booking Varanasi",
+    "Airport Transfer Varanasi",
+    "Local Sightseeing Varanasi",
+    "Outstation Cab Varanasi",
+    "One Way Cab Varanasi",
+    "Railway Station Pickup Varanasi",
+    "Varanasi Airport Taxi",
+    "Car Hire Varanasi",
+    "Tempo Traveller Varanasi",
+    "Innova Crysta Rental Varanasi",
+    "Ertiga Rental Varanasi",
     "Cab Booking Varanasi",
+    "Taxi Booking Varanasi",
+    "Ayodhya Taxi",
+    "Prayagraj Taxi",
+    "Bodh Gaya Taxi",
   ],
-
   alternates: {
-    canonical: "https://cabservicesvaranasi.com",
+    canonical: "https://varanasitravelcab.com",
   },
 
   robots: {
@@ -75,38 +81,31 @@ export const metadata = {
 
   openGraph: {
     type: "website",
-
     locale: "en_IN",
-
-    url: "https://cabservicesvaranasi.com",
-
-    siteName: "Cab Services Varanasi",
+    url: "https://varanasitravelcab.com",
+    siteName: "Varanasi Travel Cab",
 
     title:
-      "Cab Services Varanasi | Airport Taxi, Local Taxi & Car Rental",
+      "Varanasi Travel Cab | Taxi Service, Airport Transfer & Car Rental",
 
     description:
-      "Book affordable airport taxi, local sightseeing taxi, outstation cab and chauffeur-driven car rental in Varanasi.",
+      "Book affordable taxi services in Varanasi for airport transfers, local sightseeing, outstation trips, one-way cabs and chauffeur-driven car rentals.",
 
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Cab Services Varanasi",
+        alt: "Varanasi Travel Cab",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-
-    title:
-      "Cab Services Varanasi | Taxi Service & Car Rental",
-
+    title: "Varanasi Travel Cab | Taxi Service, Airport Transfer & Car Rental",
     description:
-      "Affordable airport taxi, local sightseeing and outstation cab booking in Varanasi.",
-
+      "Book affordable taxi services in Varanasi for airport transfers, local sightseeing, outstation trips, one-way cabs and chauffeur-driven car rentals.",
     images: ["/og-image.jpg"],
   },
 
@@ -136,8 +135,55 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo.png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+
+
+        <Script
+          id="local-business-schema"
+          type="application/ld+json"
+          strategy="beforeInteractive"
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TaxiService",
+            name: "Varanasi Travel Cab",
+            url: "https://varanasitravelcab.com",
+            logo: "https://varanasitravelcab.com/logo.png",
+            image: "https://varanasitravelcab.com/og-image.jpg",
+            telephone: "+91-8467007704",
+            email: "varanasitravelcab@gmail.com",
+            priceRange: "₹₹",
+
+            areaServed: [
+              {
+                "@type": "City",
+                name: "Varanasi",
+              },
+              {
+                "@type": "State",
+                name: "Uttar Pradesh",
+              },
+              {
+                "@type": "Country",
+                name: "India",
+              },
+            ],
+
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Varanasi",
+              addressRegion: "Uttar Pradesh",
+              postalCode: "221106",
+              addressCountry: "IN",
+            },
+
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+91-8467007704",
+              contactType: "customer service",
+              availableLanguage: ["English", "Hindi"],
+            },
+          })}
+        </Script>
 
         {/* Google Analytics */}
         <Script

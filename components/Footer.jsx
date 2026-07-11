@@ -62,7 +62,7 @@ const Footer = () => {
 
               <div className="  ">
                 {/* Email Input */}
-                <p className="text-gray-400 mt-4">Email : <a href="mailto:rajat6427@gmail.com" className="text-[#0466c8] hover:underline">
+                <p className="text-gray-400 mt-4">Email : <a href="mailto:varanasitravelcab@gmail.com" className="text-[#0466c8] hover:underline">
 
                   varanasitravelcab@gmail.com</a>
                 </p>

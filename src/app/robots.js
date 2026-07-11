@@ -4,9 +4,14 @@ export default function robots() {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/"], // optional improvement
+        disallow: [
+          "/api/",
+          "/admin/",
+          "/dashboard/",
+        ],
       },
     ],
-    sitemap: "https://aaradhyatourandtravels.com/sitemap.xml",
+    sitemap: "https://varanasitravelcab.com/sitemap.xml",
+    host: "https://varanasitravelcab.com",
   };
 }

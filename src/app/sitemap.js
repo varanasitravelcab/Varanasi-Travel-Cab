@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = "https://aaradhyatourandtravels.com";
+  const baseUrl = "https://varanasitravelcab.com";
 
   // 🔹 Fetch dynamic car data
   const res = await fetch(`${baseUrl}/api/cars`, {

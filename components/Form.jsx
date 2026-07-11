@@ -28,7 +28,7 @@ function Form() {
     );
 
     window.open(
-      "https://wa.me/918090579753?text=" + message,
+      "https://wa.me/918467007704?text=" + message,
       "_blank"
     );
   };

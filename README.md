@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Varanasi Travel Cab
 
-## Getting Started
+A modern, SEO-optimized taxi booking and car rental website built with **Next.js**, designed for **Varanasi Travel Cab**. The website provides an intuitive experience for customers to explore available vehicles, book rides, and contact the business through WhatsApp.
 
-First, run the development server:
+## 🌐 Website
+
+**Production:** https://varanasitravelcab.com
+
+---
+
+## ✨ Features
+
+* Responsive, mobile-first design
+* Modern UI with GSAP animations
+* SEO-optimized pages and metadata
+* Dynamic car details pages
+* Airport taxi booking
+* Local taxi services
+* Outstation cab booking
+* Tempo Traveller rental
+* WhatsApp booking integration
+* Optimized images using Next.js Image
+* Structured data (Schema.org)
+* XML Sitemap
+* Robots.txt
+* Fast page loading
+
+---
+
+## 🛠 Tech Stack
+
+* Next.js (App Router)
+* React
+* Tailwind CSS
+* GSAP
+* Framer-friendly UI Components
+* Next/Image
+* JavaScript
+
+---
+
+## 🚖 Services
+
+* Airport Taxi Service
+* Railway Station Pickup & Drop
+* Local Cab Service
+* Outstation Cab Service
+* Varanasi Sightseeing Tours
+* Religious Tour Packages
+* Corporate Taxi Service
+* Wedding Car Rental
+* Tempo Traveller Rental
+* Chauffeur Driven Car Rental
+* 24×7 Taxi Booking
+
+---
+
+## 📂 Project Structure
+
+```text
+app/
+components/
+public/
+src/
+```
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build for production:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📈 SEO Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Optimized Metadata
+* Open Graph Tags
+* Twitter Cards
+* Canonical URLs
+* XML Sitemap
+* Robots.txt
+* TaxiService Schema
+* Organization Schema
+* Website Schema
+* Local SEO Optimization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📞 Contact
+
+**Business:** Varanasi Travel Cab
+
+**Website:** https://varanasitravelcab.com
+
+**Email:** [varanasitravelcab@gmail.com](mailto:varanasitravelcab@gmail.com)
+
+**Phone:** +91 8467007704
+
+---
+
+## 📄 License
+
+This project was developed exclusively for **Varanasi Travel Cab**. Unauthorized copying, redistribution, or commercial use without permission is prohibited.

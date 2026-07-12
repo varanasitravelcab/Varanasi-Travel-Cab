@@ -38,6 +38,7 @@ export const metadata = {
     "taxi booking varanasi",
     "cab near me varanasi",
     "best taxi service in varanasi",
+    "varanasi travel cab",
     "varanasitravelcab",
     "varanasitravelcab.com"
   ],

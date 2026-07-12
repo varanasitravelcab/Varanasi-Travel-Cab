@@ -8,7 +8,7 @@ import {
 import Reviews from "../../../components/Testimonial";
 
 export const metadata = {
-  metadataBase: new URL("https://varanasitravelcab.com"),
+  metadataBase: new URL("https://www.varanasitravelcab.com"),
 
   title:
     "Airport Taxi Varanasi | Varanasi Airport Cab Booking | Varanasi Travel Cab",
@@ -41,7 +41,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://varanasitravelcab.com/airport-taxi-varanasi",
+      "https://www.varanasitravelcab.com/airport-taxi-varanasi",
   },
 
   openGraph: {
@@ -52,7 +52,7 @@ export const metadata = {
       "Reliable airport taxi service in Varanasi for VNS Airport transfers, flight pickup and airport drop.",
 
     url:
-      "https://varanasitravelcab.com/airport-taxi-varanasi",
+      "https://www.varanasitravelcab.com/airport-taxi-varanasi",
 
     siteName: "Varanasi Travel Cab",
 

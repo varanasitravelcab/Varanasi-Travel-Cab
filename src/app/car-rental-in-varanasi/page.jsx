@@ -14,7 +14,7 @@ import {
 
 
 export const metadata = {
-  metadataBase: new URL("https://varanasitravelcab.com"),
+  metadataBase: new URL("https://www.varanasitravelcab.com"),
 
   title:
     "Car Rental in Varanasi | Taxi Service & Cab Booking | Varanasi Travel Cab",
@@ -47,7 +47,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://varanasitravelcab.com/car-rental-in-varanasi",
+    canonical: "https://www.varanasitravelcab.com/car-rental-in-varanasi",
   },
 
   openGraph: {
@@ -57,7 +57,7 @@ export const metadata = {
     description:
       "Affordable car rental in Varanasi for airport pickup, local sightseeing, outstation trips and one-way taxi booking.",
 
-    url: "https://varanasitravelcab.com/car-rental-in-varanasi",
+    url: "https://www.varanasitravelcab.com/car-rental-in-varanasi",
 
     siteName: "Varanasi Travel Cab",
 
@@ -140,7 +140,7 @@ export default function Page() {
 
 
             <p className="text-white/70 text-[1.1rem] leading-[1.7] mb-8 max-w-[520px]">
-             Varanasi Travel Cab provides reliable car rental in Varanasi for local sightseeing, airport pickup & drop, one-way taxi, round trips and outstation travel. Our professional drivers, clean vehicles and transparent pricing make every journey safe, comfortable and affordable.
+              Varanasi Travel Cab provides reliable car rental in Varanasi for local sightseeing, airport pickup & drop, one-way taxi, round trips and outstation travel. Our professional drivers, clean vehicles and transparent pricing make every journey safe, comfortable and affordable.
             </p>
 
             <div className="flex flex-wrap gap-[14px] mb-10">
@@ -161,7 +161,7 @@ export default function Page() {
                 💬 WhatsApp Us
               </a>
             </div>
-            
+
             <div className="mt-12 flex flex-col items-start gap-2">
               <p className="text-white/90 text-sm tracking-[3px] uppercase">
                 Choose from Hatchback, Sedan, SUV, Innova & Tempo Traveller

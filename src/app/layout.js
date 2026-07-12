@@ -14,7 +14,7 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://varanasitravelcab.com"),
+  metadataBase: new URL("https://www.varanasitravelcab.com"),
 
   title: {
     default: "Varanasi Travel Cab",
@@ -29,7 +29,7 @@ export const metadata = {
   authors: [
     {
       name: "Varanasi Travel Cab",
-      url: "https://varanasitravelcab.com",
+      url: "https://www.varanasitravelcab.com",
     },
   ],
 
@@ -63,7 +63,7 @@ export const metadata = {
     "Bodh Gaya Taxi",
   ],
   alternates: {
-    canonical: "https://varanasitravelcab.com",
+    canonical: "https://www.varanasitravelcab.com",
   },
 
   robots: {
@@ -82,7 +82,7 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://varanasitravelcab.com",
+    url: "https://www.varanasitravelcab.com",
     siteName: "Varanasi Travel Cab",
 
     title:
@@ -146,9 +146,9 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "TaxiService",
             name: "Varanasi Travel Cab",
-            url: "https://varanasitravelcab.com",
-            logo: "https://varanasitravelcab.com/logo.png",
-            image: "https://varanasitravelcab.com/og-image.jpg",
+            url: "https://www.varanasitravelcab.com",
+            logo: "https://www.varanasitravelcab.com/logo.png",
+            image: "https://www.varanasitravelcab.com/og-image.jpg",
             telephone: "+91-8467007704",
             email: "varanasitravelcab@gmail.com",
             priceRange: "₹₹",

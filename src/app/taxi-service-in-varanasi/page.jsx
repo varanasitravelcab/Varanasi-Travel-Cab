@@ -8,7 +8,7 @@ import {
 import Reviews from "../../../components/Testimonial";
 
 export const metadata = {
-  metadataBase: new URL("https://varanasitravelcab.com"),
+  metadataBase: new URL("https://www.varanasitravelcab.com"),
 
   title:
     "Taxi Service in Varanasi | Cab Booking, Airport Taxi & Local Cabs | Varanasi Travel Cab",
@@ -41,7 +41,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://varanasitravelcab.com/taxi-service-in-varanasi",
+      "https://www.varanasitravelcab.com/taxi-service-in-varanasi",
   },
 
   openGraph: {
@@ -52,7 +52,7 @@ export const metadata = {
       "Book trusted taxi service in Varanasi for airport transfers, local sightseeing, railway station pickup and outstation travel.",
 
     url:
-      "https://varanasitravelcab.com/taxi-service-in-varanasi",
+      "https://www.varanasitravelcab.com/taxi-service-in-varanasi",
 
     siteName: "Varanasi Travel Cab",
 

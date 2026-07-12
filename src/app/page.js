@@ -10,7 +10,7 @@ import PolicyAccordion from "../../components/PolicyAccordion";
 import Section2 from "../../components/Section2";
 
 export const metadata = {
-  metadataBase: new URL("https://varanasitravelcab.com"),
+  metadataBase: new URL("https://www.varanasitravelcab.com"),
 
   title:
     "Taxi Service in Varanasi | Airport Taxi, Car Rental & Outstation Cabs",
@@ -44,7 +44,7 @@ export const metadata = {
   ],
 
   alternates: {
-    canonical: "https://varanasitravelcab.com",
+    canonical: "https://www.varanasitravelcab.com",
   },
 
   openGraph: {
@@ -54,7 +54,7 @@ export const metadata = {
     description:
       "Reliable airport taxi, local cab, railway station pickup, outstation taxi and chauffeur-driven car rental services in Varanasi.",
 
-    url: "https://varanasitravelcab.com",
+    url: "https://www.varanasitravelcab.com", 
 
     siteName: "Varanasi Travel Cab",
 
@@ -114,15 +114,15 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "TaxiService",
-            "@id": "https://varanasitravelcab.com/#business",
+            "@id": "https://www.varanasitravelcab.com/#business",
 
             name: "Varanasi Travel Cab",
 
-            url: "https://varanasitravelcab.com",
+            url: "https://www.varanasitravelcab.com",
 
-            logo: "https://varanasitravelcab.com/logo.png",
+            logo: "https://www.varanasitravelcab.com/logo.png",
 
-            image: "https://varanasitravelcab.com/logo.png",
+            image: "https://www.varanasitravelcab.com/logo.png",
 
             description:
               "Varanasi Travel Cab offers airport taxi, local sightseeing, railway station pickup, chauffeur-driven car rental, Tempo Traveller and outstation cab booking throughout Varanasi and North India.",
@@ -233,7 +233,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebSite",
 
-            url: "https://varanasitravelcab.com",
+            url: "https://www.varanasitravelcab.com",
 
             name: "Varanasi Travel Cab",
 
@@ -242,7 +242,7 @@ export default function Home() {
             potentialAction: {
               "@type": "SearchAction",
               target:
-                "https://varanasitravelcab.com/?q={search_term_string}",
+                "https://www.varanasitravelcab.com/?q={search_term_string}",
               "query-input": "required name=search_term_string",
             },
           }),
@@ -258,13 +258,13 @@ export default function Home() {
 
             "@type": "Organization",
 
-            "@id": "https://varanasitravelcab.com/#organization",
+            "@id": "https://www.varanasitravelcab.com/#organization",
 
             name: "Varanasi Travel Cab",
 
-            url: "https://varanasitravelcab.com",
+            url: "https://www.varanasitravelcab.com",
 
-            logo: "https://varanasitravelcab.com/logo.png",
+            logo: "https://www.varanasitravelcab.com/logo.png",
 
             email: "varanasitravelcab@gmail.com",
 

@@ -12,6 +12,5 @@ export default function robots() {
       },
     ],
     sitemap: "https://www.varanasitravelcab.com/sitemap.xml",
-    host: "https://www.varanasitravelcab.com",
   };
 }

@@ -13,7 +13,7 @@ export const metadata = {
   metadataBase: new URL("https://www.varanasitravelcab.com"),
 
   title:
-    "Taxi Service in Varanasi | Airport Taxi, Car Rental & Outstation Cabs",
+    "Varanasi Travel Cab | Taxi Service in Varanasi | Airport Taxi & Car Rental",
 
   description:
     "Book trusted taxi and car rental services in Varanasi with Varanasi Travel Cab. Airport transfers, railway station pickup, local sightseeing, outstation cabs, corporate travel, Tempo Traveller, Innova Crysta and chauffeur-driven cars available 24×7.",

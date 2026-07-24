@@ -96,6 +96,239 @@ export default function Page() {
     <>
       <header>
         <NavContainer />
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify([
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://www.varanasitravelcab.com/#business",
+
+        "name": "Varanasi Travel Cab",
+
+        "url": "https://www.varanasitravelcab.com",
+
+        "logo":
+          "https://www.varanasitravelcab.com/logo.png",
+
+        "image":
+          "https://www.varanasitravelcab.com/og-image.jpg",
+
+        "telephone":
+          "+91-8467007704",
+
+        "email":
+          "varanasitravelcab@gmail.com",
+
+        "priceRange":
+          "₹₹",
+
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Varanasi",
+          "addressRegion": "Uttar Pradesh",
+          "postalCode": "221001",
+          "addressCountry": "IN"
+        },
+
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Varanasi"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Uttar Pradesh"
+          },
+          {
+            "@type": "Country",
+            "name": "India"
+          }
+        ]
+      },
+
+
+      {
+        "@context": "https://schema.org",
+
+        "@type": "Service",
+
+        "@id":
+          "https://www.varanasitravelcab.com/car-rental-in-varanasi#service",
+
+        "name":
+          "Car Rental in Varanasi",
+
+        "serviceType":
+          "Car Rental and Taxi Service",
+
+        "description":
+          "Affordable car rental in Varanasi for airport taxi, local sightseeing, railway station pickup, outstation cab booking, one-way taxi, round trips and chauffeur-driven cars.",
+
+        "url":
+          "https://www.varanasitravelcab.com/car-rental-in-varanasi",
+
+        "provider": {
+          "@id":
+            "https://www.varanasitravelcab.com/#business"
+        },
+
+
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+
+          "name":
+            "Car Rental Services in Varanasi",
+
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Airport Taxi Service"
+              }
+            },
+
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Local Taxi Service"
+              }
+            },
+
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Outstation Cab Service"
+              }
+            },
+
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "One Way Taxi Service"
+              }
+            },
+
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Round Trip Taxi Service"
+              }
+            },
+
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Innova Crysta Rental"
+              }
+            },
+
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Tempo Traveller Rental"
+              }
+            }
+          ]
+        }
+      },
+
+
+      {
+        "@context": "https://schema.org",
+
+        "@type": "FAQPage",
+
+        "mainEntity": [
+
+          {
+            "@type": "Question",
+
+            "name":
+              "What is the cost of car rental in Varanasi?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text":
+                "Car rental prices in Varanasi depend on vehicle type, distance and duration. Varanasi Travel Cab provides affordable hatchback, sedan, SUV, Innova Crysta and Tempo Traveller rental options."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name":
+              "Do you provide airport taxi service from Varanasi Airport?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text":
+                "Yes, Varanasi Travel Cab provides airport pickup and drop taxi service from Lal Bahadur Shastri International Airport with professional drivers and clean vehicles."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name":
+              "Can I book an outstation cab from Varanasi?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text":
+                "Yes, you can book one-way taxi and round-trip outstation cabs from Varanasi for nearby and long-distance destinations."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name":
+              "Which cars are available for rental in Varanasi?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text":
+                "Varanasi Travel Cab provides hatchback, sedan, SUV, Ertiga, Innova Crysta and Tempo Traveller rental services."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name":
+              "How can I book a taxi in Varanasi?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text":
+                "You can book a taxi by calling Varanasi Travel Cab or contacting through WhatsApp for quick confirmation."
+            }
+          }
+
+        ]
+      }
+
+    ])
+  }}
+/>
       </header>
       <section
         aria-label="About Varanasi Travel Cab"

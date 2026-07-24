@@ -18,7 +18,7 @@ export const metadata = {
 
   title: {
     default: "Varanasi Travel Cab",
-    template: "%s | Varanasi Travel Cab",
+    template: "%s",
   },
 
   description:
@@ -135,56 +135,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-
-
-        <Script
-          id="local-business-schema"
-          type="application/ld+json"
-          strategy="beforeInteractive"
-        >
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "TaxiService",
-            name: "Varanasi Travel Cab",
-            url: "https://www.varanasitravelcab.com",
-            logo: "https://www.varanasitravelcab.com/logo.png",
-            image: "https://www.varanasitravelcab.com/og-image.jpg",
-            telephone: "+91-8467007704",
-            email: "varanasitravelcab@gmail.com",
-            priceRange: "₹₹",
-
-            areaServed: [
-              {
-                "@type": "City",
-                name: "Varanasi",
-              },
-              {
-                "@type": "State",
-                name: "Uttar Pradesh",
-              },
-              {
-                "@type": "Country",
-                name: "India",
-              },
-            ],
-
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Varanasi",
-              addressRegion: "Uttar Pradesh",
-              postalCode: "221106",
-              addressCountry: "IN",
-            },
-
-            contactPoint: {
-              "@type": "ContactPoint",
-              telephone: "+91-8467007704",
-              contactType: "customer service",
-              availableLanguage: ["English", "Hindi"],
-            },
-          })}
-        </Script>
-
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SBQTX18BJ9"

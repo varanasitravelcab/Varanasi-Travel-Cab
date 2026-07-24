@@ -10,6 +10,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
   Phone,
 } from "lucide-react";
+import PolicyAccordion from "../../../components/PolicyAccordion";
 
 
 
@@ -423,6 +424,7 @@ export default function Page() {
 
         <Any />
 
+         <PolicyAccordion/>
         <Reviews />
         <Footer />
       </main>
